@@ -16,7 +16,7 @@ favicon:
 
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
-  #since: 2015
+  since: 2019
 
   # Icon between year and copyright info.
   icon:
@@ -65,8 +65,8 @@ index_with_subtitle: false
 # External url should start with http:// or https://
 menu:
   home: / || fas fa-home
-  #tags: /tags/ || fas fa-tags
-  #categories: /categories/ || fas fa-th
+  tags: /tags/ || fas fa-tags
+  categories: /categories/ || fas fa-th
   archives: /archives/ || fas fa-archive
   #sitemap: /sitemap.xml || fas fa-sitemap
   #commonweal: /404/ || fas fa-heartbeat
@@ -89,11 +89,11 @@ site_state: true
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
+  GitHub: https://github.com/xfalcons || fab fa-github
   #E-Mail: mailto:yourname@gmail.com || fas fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
-  #Twitter: https://twitter.com/yourname || fab fa-twitter
+  Twitter: https://twitter.com/xfalcons || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #VK Group: https://vk.com/yourname || fab fa-vk
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
@@ -111,7 +111,7 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: /images/avatar.gif
+  url: /images/avatar.jpg
   # If true, the avatar would be dispalyed in circle.
   rounded: true
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -161,7 +161,7 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night
 
 # Reward (Donate)
 reward_settings:
@@ -194,7 +194,7 @@ custom_logo: #/uploads/custom-logo.jpg
 # Code Highlight theme
 # Available values: normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 # TagCloud settings for tags page.
 tagcloud:
@@ -284,7 +284,7 @@ canvas_ribbon:
 #! ---------------------------------------------------------------
 
 # Set font (default)
-font: https://fonts.googleapis.com/css?family=Inconsolata|Itim|Lobster
+font: https://fonts.googleapis.com/css?family=Inconsolata|Lato|Itim|Lobster
 
 # Set fontawesome cdn
 fontawesome:
